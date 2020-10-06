@@ -1,0 +1,50 @@
+body{
+    background-color: #F8F8F8;
+    margin: 0;
+}
+.header{
+    background-color: #676EC4;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.hero{
+    margin: 20px 20%;
+}
+.titulo{
+    color: #028480;
+   
+}
+.itemTurno{
+    display: flex;
+    justify-content: space-around;
+}
+.turnos{
+    color: #408AF6;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.clientes{
+    border: red solid 3px;
+    width: 100px;
+    /*height: 200px;*/
+    color: black;
+    text-align: center;
+}
+.logoCliente{
+    border: blue solid 4px;
+}
+.articulo{
+    border: chartreuse solid 1px;
+    margin: 0;
+}
+.articulo h4{
+    color: red;
+    margin: 0;
+}
+.articulo h5, p{
+    margin: 0;
+}
