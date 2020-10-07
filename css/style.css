@@ -18,6 +18,7 @@ body{
 .itemTurno{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .turnos{
     color: #408AF6;
@@ -28,23 +29,35 @@ body{
     color: white;
 }
 .clientes{
-    border: red solid 3px;
     width: 100px;
     /*height: 200px;*/
     color: black;
     text-align: center;
+    margin: 5% 5%;
 }
 .logoCliente{
-    border: blue solid 4px;
+    border: black solid 2px;
 }
 .articulo{
-    border: chartreuse solid 1px;
-    margin: 0;
+    border: black solid 2px;
+    margin: -2px 0 0 0;
 }
 .articulo h4{
-    color: red;
+    color: black;
     margin: 0;
 }
 .articulo h5, p{
     margin: 0;
+}
+
+
+/*--------------------------------------------*/
+.footer{
+    background-color: #028480;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .social{
+    margin: 5% 10%;
 }
